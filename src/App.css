@@ -1,0 +1,33 @@
+/* .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: slategray 1px solid;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 200px;
+} */
+
+.container{
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  padding-left: 10px;
+  color: black;
+}
+
+
+
+h1{
+font-weight: 400;
+}
+
+h2{
+font-weight: 500;
+}
+
+.container:hover{
+  background-color: azure;
+  cursor: pointer;
+  color: rgb(25, 143, 253)!important;
+}
